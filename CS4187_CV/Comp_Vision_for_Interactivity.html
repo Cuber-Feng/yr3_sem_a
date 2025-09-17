@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Comp Vision for Interactivity</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+<h2 id="assessment">Assessment</h2>
+<ul>
+<li>Programming Assignments (50%)
+<ul>
+<li>Three Assignments (30%)<br />
+</li>
+<li>One Mini Project &amp; Video-recorded Presentation/Demonstration
+(20%)<br />
+</li>
+</ul></li>
+<li>Midterm Quiz (10%)</li>
+<li>Final Exam (40%)</li>
+</ul>
+<h2 id="lecture-1">Lecture 1</h2>
+<ul>
+<li>Computer Vision is to give computers super human-level
+perception</li>
+</ul>
+<h2 id="lecture-2">Lecture 2</h2>
+<ul>
+<li>Linear Filtering
+<ul>
+<li>Box Filtering</li>
+<li>Gaussian Filtering</li>
+<li><strong>高斯滤波器</strong>用加权平均值（<strong>越近权重越大</strong>）平滑图像，效果更自然；
+而<strong>框式滤波器</strong>用<strong>简单平均值平滑图像</strong>，计算快但边缘处理不如前者</li>
+</ul></li>
+<li>Non-Linear Filtering
+<ul>
+<li>Median Filtering
+<ul>
+<li><strong>中值滤波</strong>是一种非线性数字滤波技术，常用于图像处理中去除椒盐噪声（salt-and-pepper
+noise）。与高斯滤波和框式滤波不同，中值滤波不使用加权平均，而是基于统计排序。</li>
+<li>中值滤波对于<strong>椒盐噪声</strong>非常有效，因为它能直接将这些异常值（椒盐噪声通常是极高或极低的像素值）替换为周围区域的<strong>代表性中值</strong>。</li>
+</ul></li>
+</ul></li>
+</ul>
+<h2 id="lecture-3">Lecture 3</h2>
+<ul>
+<li>Kernel/Filter Convolution (卷积)
+<ul>
+<li>在图像处理中，<strong>卷积</strong>是一种核心操作，它将一个小的矩阵（称为<strong>核</strong>或<strong>滤波器</strong>）应用于一个更大的矩阵（即<strong>图像</strong>），从而生成一个新的图像。这个过程可以用来实现各种效果，例如模糊、锐化、边缘检测等。</li>
+<li>简单来说，你可以把卷积想象成一个“<strong>滑动窗口</strong>”的操作，这个窗口就是你的<strong>核</strong>。</li>
+</ul></li>
+<li>Edge
+<ul>
+<li>Boundaries of objects</li>
+<li>Edge 的来源:
+<ul>
+<li>表面法线(surface normal)不连续</li>
+<li>深度(depth)不连续</li>
+<li>表面颜色(surface color)不连续</li>
+<li>照明(illumination)不连续</li>
+</ul></li>
+<li>Type of edge
+<ul>
+<li>Step Edge
+<ul>
+<li>一种最理想化的边缘模型，它描述了像素值从一个恒定值<strong>瞬时</strong>地跳变到另一个恒定值</li>
+</ul></li>
+<li>Ramp Edge
+<ul>
+<li>像素值从一个值<strong>平缓地、渐进地</strong>变化到另一个值</li>
+</ul></li>
+</ul></li>
+<li>Thresholding
+<ul>
+<li>Standard thresholding</li>
+<li>Hysteresis thresholding
+<ul>
+<li>有两个阈值, 高阈值&amp;低阈值</li>
+<li>“滞后”过程, 即“<strong>只接受与高阈值边缘相连的弱边缘</strong>”</li>
+</ul></li>
+</ul></li>
+<li>Hough Transform
+<ul>
+<li>“投票”机制：
+<ul>
+<li><strong>一个点</strong>：图像空间中的一个边缘点，可能属于多条直线。在参数空间中，它
+<strong>“投”了多条线</strong>的票，即它在累加器中对应的所有 (θ,ρ)
+坐标上都加了 1。</li>
+<li><strong>一条线</strong>：图像空间中的一条直线由多个点组成。在参数空间中，这些点都
+<strong>“投”了同一条线</strong>的票。因此，对应这条直线的 (θ,ρ)
+坐标会在累加器中得到高分，形成一个峰值。</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+</body>
+</html>
