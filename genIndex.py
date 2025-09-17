@@ -21,6 +21,10 @@ def generate_index_html(root_dir="."):
             a:hover { text-decoration: underline; color: #007bff; }
             .folder-list { margin-top: 1em; }
             .folder-list li { margin-left: 2em; background-color: #f1f3f5; }
+            footer {
+                padding-top: 1rem;
+                text-align: center;
+            }
         </style>
     </head>
     <body>
@@ -66,6 +70,9 @@ def generate_index_html(root_dir="."):
         html_content += '</ul>\n'
 
     html_content += """
+        <footer>
+            By Maple Feng
+        </footer>
     </body>
     </html>
     """
