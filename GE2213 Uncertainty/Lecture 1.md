@@ -26,7 +26,7 @@
 |  12  | 18 Nov | *Group Project Presentation (10-15min)*                 |
 |  13  | 25 Nov | *Quiz & Group Project Presentation*                     |
 
-*No Report, No Exam, 1 A4 cheat sheet for Quiz*
+> *No Report, No Exam, 1 A4 cheat sheet for Quiz*
 
 ## 3 Type of Uncertainty
 
