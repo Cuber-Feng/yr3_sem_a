@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Comp Vision for Interactivity</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<h1 id="computer-vision">Computer Vision</h1>
+<h2 id="assessment">Assessment</h2>
+<ul>
+<li>Programming Assignments (50%)
+<ul>
+<li>Three Assignments (30%)<br />
+</li>
+<li>One Mini Project &amp; Video-recorded Presentation/Demonstration
+(20%)<br />
+</li>
+</ul></li>
+<li>Midterm Quiz (10%)</li>
+<li>Final Exam (40%)</li>
+</ul>
+<h2 id="lecture-1">Lecture 1</h2>
+<ul>
+<li>Computer Vision is to give computers super human-level
+perception</li>
+</ul>
+<h2 id="lecture-2">Lecture 2</h2>
+<ul>
+<li>Linear Filtering
+<ul>
+<li>Box Filtering</li>
+<li>Gaussian Filtering</li>
+<li><strong>高斯滤波器</strong>用加权平均值（<strong>越近权重越大</strong>）平滑图像，效果更自然；
+而<strong>框式滤波器</strong>用<strong>简单平均值平滑图像</strong>，计算快但边缘处理不如前者</li>
+</ul></li>
+<li>Non-Linear Filtering
+<ul>
+<li>Median Filtering
+<ul>
+<li><strong>中值滤波</strong>是一种非线性数字滤波技术，常用于图像处理中去除椒盐噪声（salt-and-pepper
+noise）。与高斯滤波和框式滤波不同，中值滤波不使用加权平均，而是基于统计排序。</li>
+<li>中值滤波对于<strong>椒盐噪声</strong>非常有效，因为它能直接将这些异常值（椒盐噪声通常是极高或极低的像素值）替换为周围区域的<strong>代表性中值</strong>。</li>
+</ul></li>
+</ul></li>
+</ul>
+<h2 id="lecture-3">Lecture 3</h2>
+<ul>
+<li>Kernel/Filter Convolution (卷积)
+<ul>
+<li>在图像处理中，<strong>卷积</strong>是一种核心操作，它将一个小的矩阵（称为<strong>核</strong>或<strong>滤波器</strong>）应用于一个更大的矩阵（即<strong>图像</strong>），从而生成一个新的图像。这个过程可以用来实现各种效果，例如模糊、锐化、边缘检测等。</li>
+<li>简单来说，你可以把卷积想象成一个“<strong>滑动窗口</strong>”的操作，这个窗口就是你的<strong>核</strong>。</li>
+</ul></li>
+<li>Edge
+<ul>
+<li>Boundaries of objects</li>
+<li>Edge 的来源:
+<ul>
+<li>表面法线(surface normal)不连续</li>
+<li>深度(depth)不连续</li>
+<li>表面颜色(surface color)不连续</li>
+<li>照明(illumination)不连续</li>
+</ul></li>
+<li>Type of edge
+<ul>
+<li>Step Edge
+<ul>
+<li>一种最理想化的边缘模型，它描述了像素值从一个恒定值<strong>瞬时</strong>地跳变到另一个恒定值</li>
+</ul></li>
+<li>Ramp Edge
+<ul>
+<li>像素值从一个值<strong>平缓地、渐进地</strong>变化到另一个值</li>
+</ul></li>
+</ul></li>
+<li>Thresholding
+<ul>
+<li>Standard thresholding</li>
+<li>Hysteresis thresholding
+<ul>
+<li>有两个阈值, 高阈值&amp;低阈值</li>
+<li>“滞后”过程, 即“<strong>只接受与高阈值边缘相连的弱边缘</strong>”</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+</body>
+</html>
