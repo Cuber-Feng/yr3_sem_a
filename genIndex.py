@@ -9,7 +9,8 @@ def generate_index_html(root_dir="."):
     <html lang="zh-CN">
     <head>
         <meta charset="UTF-8">
-        <title>文档索引</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Notes (Year 3 Sem A)</title>
         <style>
             body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; max-width: 900px; margin: 0 auto; padding: 2em; background-color: #f8f9fa; color: #333; }
             h1 { text-align: center; color: #1a1a1a; }
@@ -23,7 +24,7 @@ def generate_index_html(root_dir="."):
         </style>
     </head>
     <body>
-        <h1>文档索引</h1>
+        <h1>My Notes</h1>
     """
     
     # 存储文件夹及其包含的HTML文件
