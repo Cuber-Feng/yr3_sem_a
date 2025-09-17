@@ -1,3 +1,5 @@
+# Lecture 3
+
 ## Four data types
 
 | Data Type | Definition                                         | Key Operations               | Example                               |
@@ -6,7 +8,9 @@
 | Ordinal   | Categorical data with a rank or order.             | Ranking, mode, median.       | Satisfaction ratings, military ranks. |
 | Interval  | Ordered data with equal intervals. No true zero.   | Addition and subtraction.    | Temperature in °C/°F, years.          |
 | Ratio     | Ordered data with equal intervals and a true zero. | All mathematical operations. | Height, weight, age, income.          |
+
 ## Graphical Presentation
+
 - Pie Chart 饼图
 - Simple Bar Chart 条形统计图
 - Multiple Bar Chart 每一个col有多条

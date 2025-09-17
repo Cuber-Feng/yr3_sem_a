@@ -1,3 +1,5 @@
+# Actual Study Process
+
 ## Year 1 (2023–2024)
 
 |  Course   | Units  | Grade  | Course  | Units  | Grade  | Course  | Units | Grade  |
@@ -28,8 +30,6 @@
 ---
 
 ## Year 3 (2025–2026)
-
-
 
 ---
 

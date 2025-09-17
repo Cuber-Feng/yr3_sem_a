@@ -1,10 +1,15 @@
+# Lecture 1
+
 ## Assessment
+
 | Content                                            | Weight |
 | -------------------------------------------------- | ------ |
 | Individual Assignment (Due on Oct-12) First 3 week | 20%    |
 | Group Project (Due on Nov-18)                      | 40%    |
 | Quiz on Nov-25 (Tuesday) 4-9 week                  | 40%    |
+
 ## Teaching Schedule
+
 | Week | Date   | Topic                                                   |
 | :--: | ------ | ------------------------------------------------------- |
 |  1   | 2 Sep  | 1. Introduction to Uncertainty                          |
@@ -20,9 +25,11 @@
 |  11  | 11 Nov | 9. Investment Modelling                                 |
 |  12  | 18 Nov | *Group Project Presentation (10-15min)*                 |
 |  13  | 25 Nov | *Quiz & Group Project Presentation*                     |
+
 *No Report, No Exam, 1 A4 cheat sheet for Quiz*
 
 ## 3 Type of Uncertainty
+
 - Relative frequency probabilities
 - Theoretical probabilities
 - Scientific approach

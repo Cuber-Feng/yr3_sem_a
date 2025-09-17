@@ -1,4 +1,7 @@
+# CB2100 Acounting
+
 ## Assessment
+
 - Tutorial 5%
 - LearnSmart 5%
 - CONNECT quiz 5%

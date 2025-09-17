@@ -7,43 +7,110 @@ body {
     margin: 0 auto;
     padding: 2em;
 }
-h1, h2, h3, h4, h5, h6 {
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: #1a1a1a;
     margin-top: 1.5em;
 }
+
 a {
     color: #007bff;
     text-decoration: none;
 }
+
 a:hover {
     text-decoration: underline;
 }
-pre, code {
+
+pre,
+code {
     background-color: #eee;
     border-radius: 4px;
     padding: 0.1em 0.3em;
     font-family: monospace;
 }
+
 pre {
     padding: 1em;
     overflow-x: auto;
 }
+
 blockquote {
     border-left: 4px solid #ccc;
     padding-left: 1em;
     color: #666;
     margin: 1.5em 0;
 }
+
 table {
     width: 100%;
     border-collapse: collapse;
     margin: 1em 0;
 }
-th, td {
+
+th,
+td {
     border: 1px solid #ddd;
     padding: 8px;
     text-align: left;
 }
+
 th {
     background-color: #f2f2f2;
+}
+
+@media (max-width: 767.98px) {
+    :root {
+        --lvl1-bg: rgba(0, 0, 0, 0.02);
+        --lvl2-bg: rgba(0, 0, 0, 0.04);
+        --lvl3-bg: rgba(0, 0, 0, 0.06);
+        --lvl4-bg: rgba(0, 0, 0, 0.08);
+
+        --li-padding: 0.45rem 0.6rem;
+        --li-radius: 8px;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    ul li {
+        margin: 0.35rem 0;
+        padding: var(--li-padding);
+        border-radius: var(--li-radius);
+    }
+
+    ul>li {
+        font-size: 1rem;
+        background: var(--lvl1-bg);
+    }
+
+    ul ul>li {
+        font-size: 0.95rem;
+        background: var(--lvl2-bg);
+    }
+
+    ul ul ul>li {
+        font-size: 0.9rem;
+        background: var(--lvl3-bg);
+    }
+
+    ul ul ul ul>li {
+        font-size: 0.85rem;
+        background: var(--lvl4-bg);
+    }
+
+    ul ul,
+    ul ul ul,
+    ul ul ul ul {
+        margin: 0;
+        padding: 0;
+    }
 }

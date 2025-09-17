@@ -1,6 +1,9 @@
+# CS Study Plan
+
 > Total: **120 Credit Units** (minimum graduation requirement) Maximum: **144 Credit Units**
 
 ## Credit Unit Requirements
+
 - **Gateway Education (GE)**: 30 CU
 - **College / School Requirements**: 6 CU
 - **Major Requirements**: 84 CU  
@@ -11,6 +14,7 @@
 ## Year 1 (2023–2024)
 
 ### Semester A
+
 | Course | Units |
 |--------|-------|
 | CS1302 Introduction to Computer Programming | 3 |
@@ -21,6 +25,7 @@
 | **Total** | **15** |
 
 ### Semester B
+
 | Course | Units |
 |--------|-------|
 | GE2410 English for Engineering – GE(3) | 3 |
@@ -37,6 +42,7 @@
 ## Year 2 (2024–2025)
 
 ### Semester A
+
 | Course | Units |
 |--------|-------|
 | CS2611 Seminars on Contemporary Technology I | 0 |
@@ -48,6 +54,7 @@
 | **Total** | **15** |
 
 ### Semester B
+
 | Course | Units |
 |--------|-------|
 | CS2611 Seminars on Contemporary Technology I | 1 |
@@ -65,6 +72,7 @@
 ## Year 3 (2025–2026)
 
 ### Semester A
+
 | Course | Units |
 |--------|-------|
 | CS3505 IT Professional Internship | 6* |
@@ -73,6 +81,7 @@
 | **Total** | **12** |
 
 ### Semester B
+
 | Course | Units |
 |--------|-------|
 | CS3505 IT Professional Internship | 3* |
@@ -88,6 +97,7 @@
 ## Year 4 (2026–2027)
 
 ### Semester A
+
 | Course | Units |
 |--------|-------|
 | CS4514 Project | 3* |
@@ -99,6 +109,7 @@
 | **Total** | **17** |
 
 ### Semester B
+
 | Course | Units |
 |--------|-------|
 | CS4514 Project | 6* |
@@ -110,31 +121,40 @@
 ---
 
 ## Electives (Minimum 18 CU)
+
 Students may:
+
 - Choose a **stream** (3 stream core courses + 3 electives from list)  
 - Or take any 6 electives from list  
 
 ### Streams
+
 #### Artificial Intelligence Stream
+
 - Core: CS4486 Artificial Intelligence, CS4487 Machine Learning  
 - Choose 1: CS4186 Computer Vision & Image Processing / CS4386 AI Game Programming  
 
 #### Data Science Stream
+
 - Core: CS3481 Fundamentals of Data Science, CS4480 Data-Intensive Computing, CS4487 Machine Learning  
 
 #### Information Security Stream
+
 - Core: CS4286 Internet Security & E-Commerce Protocols, CS4293 Topics on Cybersecurity, CS4394 Information Security & Management  
 
 #### Multimedia Computing Stream
+
 - Core: CS3483 Multimodal Interface Design, CS4182 Computer Graphics  
 - Choose 1: CS4185 Multimedia Technologies, CS4186 Computer Vision, CS4187 Computer Vision for Interactivity, CS4188 Virtual Reality  
 
 #### Software Engineering & Project Management Stream
+
 - Choose 3 of: CS3346 Software Testing, CS3356 Managing Software Projects, CS4348 Software Quality Management, CS4389 Decentralized Applications Development  
 
 ---
 
 ## Additional Notes
+
 - **GE Requirements**:  
   - English: GE1401 & GE2410  
   - Chinese: GE1501  
