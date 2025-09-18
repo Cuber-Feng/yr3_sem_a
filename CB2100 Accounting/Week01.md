@@ -1,4 +1,4 @@
-# CB2100 Acounting
+# Week 1
 
 ## Assessment
 
@@ -9,9 +9,7 @@
 - Case Study 10%
 - Final 50%
 
-## Lecture 1
-
-### Part A: Acounting as a Measurement/Communication Process
+## Part A: Acounting as a Measurement/Communication Process
 
 - LO1: Accounting 的两个功能
   - to **measure** business activities of a company
@@ -38,7 +36,13 @@
   - Assets = total resources of the company
   - Liabilities = amounts owed to creditors
   - Stockholders’ equity = owners’ claims to resources
+- Revenues, Expenses, and Dividends
+  - **Revenues (收入)** are the amounts recognized when the company sells products or provides services to customers
+  - **Expenses (支出)** are the costs of providing products and services and other business activities during the current period
+  - **Net income (净利润)** is the difference between revenues and expenses. Other common names for net income include earnings or profit
+  - **Dividends (分红)** are cash payments to stockholders.
+    - Dividends are not expenses
 
-### Part B: Financial Accounting Information
+## Part B: Financial Accounting Information
 
-### Part C: Careers In Accounting
+## Part C: Careers In Accounting
