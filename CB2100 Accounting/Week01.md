@@ -21,14 +21,14 @@
   - **Investing** activities: transactions involving the purchase and sale of resources that are expected to benefit the company for several years (buying resources to support company)
   - **Operating** activities: transactions that relate to the primary operations of the company (公司主要业务收入)
 - Types of Business Organizations
-  - corporation
+  - **corporation**
     - a company that is legally separate from its owners
     - 好处: stockholders have limited liability
     - 例子: 苹果, 谷歌, 微软, 可口可乐
-  - sole proprietorship
+  - **sole proprietorship**
     - 一人公司, 自己承担所有损失
     - 例子: 水果摊
-  - partnership
+  - **partnership**
     - 多人拥有公司, 至少一人承担无上限的风险
     - 例子: 四大, 很多律师事务所
 - The Accounting Equation:
@@ -42,7 +42,31 @@
   - **Net income (净利润)** is the difference between revenues and expenses. Other common names for net income include earnings or profit
   - **Dividends (分红)** are cash payments to stockholders.
     - Dividends are not expenses
+- LO3: Financial Statements
+  - **Income statement**
+    - 表现一个公司赚取 profit 的能力
+    - 包含: Revenues, Expense, Net Income
+  - **Statement of stockholders’ equity** (Statement of changes in equity)
+    - 包含:
+      - 列名: Common Stock, Retained Earnings, Total Stockholders’ Equity
+      - 行名: Net Income, Dividends, Beginning/Ending balance
+  - **Balance sheet** (Statement of financial position)
+    - 表示 Financial Position, Resources(A) = Claims to Resources(L+S)
+    - Assets: 现金, receivables, 土地, 设备, 物资
+    - Liabilities: 各种 payable
+    - Stockholders' Equity: Common Stock, Retained Earnings
+  - Statement of cash flows
 
 ## Part B: Financial Accounting Information
+
+- GAAP(generally accepted accounting principles)
+- Standard:
+  - 美国: FASB (Financial Accounting Standard Board)
+  - 全球: IASB (International Accounting Standard Board)
+  - 财务会计规则称为公认会计原则 (GAAP)
+  - 财务会计准则委员会 (FASB) 是一个独立的私人机构，主要负责在美国制定 GAAP。
+- Role of auditors
+  - Help ensure that management has in fact appropriately applied **GAAP** in **preparing** the company’s **financial statements**
+  - Play a major role in investors’ and creditors’ **decisions** by adding **credibility** to the **financial statements**
 
 ## Part C: Careers In Accounting
