@@ -23,5 +23,20 @@ Greedy Algorithm
   - Minimum Spanning Tree
     - 当原图是带权图（每条边有权重）时，最小生成树是权重总和最小的生成树。
 - Generic MST algorithm
-- Kruskal's algorithm
-- Prim's algorithm
+
+    ```python
+    GENERIC_MST(G, w)
+    1 A:={}
+    2 while A does not form a spanning tree do
+    3  find an edge (u,v) that is safe for A
+    4  A:=A∪{(u,v)}
+    5 return A
+    ```
+
+- In Kruskal's algorithm,
+  - The set A is a forest.
+  - The safe edge added to A is always a shortest edge in the graph that connects two distinct components.
+
+- In Prim's algorithm,
+  - The set A forms a single tree.
+  - The safe edge added to A is always a least-weight edge connecting the tree to a node not in the tree
