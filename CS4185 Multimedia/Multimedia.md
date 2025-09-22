@@ -56,3 +56,9 @@
 ### Wireless Networks
 
 ### Multimedia Streaming
+
+---
+
+## Project
+
+- This assignment can be carried out as **individual or group** projects. The maximum number of members in each group is **3**. With **more students in a group**, slightly **more work and better results are expected**, and the responsibility of each group member needs to be clearly indicated in the report.
