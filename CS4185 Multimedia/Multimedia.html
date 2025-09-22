@@ -65,8 +65,53 @@ sample is 2 Bytes in size.</li>
 <li>The file size for the whole song is then:
 <code>176,400 * 4 * 60 Bytes = 40.4 MB</code></li>
 </ul></li>
+<li>low pass filters
+<ul>
+<li>Low-pass
+filter（低通滤波器）是一种信号处理工具，它允许低频信号通过，抑制（或阻挡）高频信号</li>
+<li>打電話的時候就會用到</li>
+<li>Telephone service providers use low pass filters to reduce the input
+signal frequency from the landline/mobile phones to reduce the bandwidth
+consumption of each phone</li>
+</ul></li>
 </ul>
 <h3 id="network-transmission">Network Transmission</h3>
+<ul>
+<li>the size of the compressed file is not fixed. It depends on the file
+content</li>
+<li>CBR（Constant Bit Rate，恒定比特率）
+<ul>
+<li>特点：编码过程中比特率保持固定。</li>
+<li>优点：
+<ul>
+<li>文件大小可预测。</li>
+<li>适合实时传输（如直播、语音通话）。</li>
+</ul></li>
+<li>缺点：
+<ul>
+<li>复杂场景可能画质下降，因为比特率固定。</li>
+</ul></li>
+<li>应用：流媒体、VoIP。</li>
+</ul></li>
+<li>VBR（Variable Bit Rate，可变比特率）
+<ul>
+<li>特点：根据内容复杂度动态调整比特率。
+<ul>
+<li>复杂场景 → 高比特率</li>
+<li>简单场景 → 低比特率。</li>
+</ul></li>
+<li>优点：
+<ul>
+<li>更高的压缩效率，画质更好。</li>
+</ul></li>
+<li>缺点：
+<ul>
+<li>文件大小不可预测</li>
+<li>编码和解码更复杂。</li>
+</ul></li>
+<li>应用：高质量音频（MP3 VBR）、视频压缩。</li>
+</ul></li>
+</ul>
 <h3 id="quality-of-service-qos">Quality of Service (QoS)</h3>
 <h3 id="wireless-networks">Wireless Networks</h3>
 <h3 id="multimedia-streaming">Multimedia Streaming</h3>
