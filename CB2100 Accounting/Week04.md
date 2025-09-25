@@ -47,3 +47,27 @@
     - `(Net income + Interest expense + Income tax expense) / Interest expense`
 
 - Use ratios to analyze a company’s profitability
+  - Gross Profit Ratio (毛利率)
+    - Indicates the portion of each dollar of sales above its cost of goods sold
+  - (Net) Profit Margin
+    - Measures the income earned on each dollar of sales
+  - Asset Turnover
+    - Measures sales volume in relation to the investment in assets
+    - `Net sales / Avg total assets`
+  - Return on Assets
+    - Measures the income the company earns on each dollar invested in assets
+  - Components of Return on Assets
+    - Return on assets = Profit margin x Asset turnover
+  - Return on Equity
+    - Measures the income earned for each dollar in SE
+    - `Net income / div avg SE`
+  - Price-Earnings Ratio
+    - `Stock Price / Earning per share`
+
+## C. Earnings Persistence And Earnings Quality
+
+- Distinguish persistent earnings from one-time items
+  - Earnings Persistence and One-Time Income Items
+  - Discontinued Operations
+  - Presentation of a Discontinued Operation
+  - Other Revenues and Expenses
