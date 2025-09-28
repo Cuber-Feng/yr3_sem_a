@@ -40,3 +40,7 @@ Greedy Algorithm
 - In Prim's algorithm,
   - The set A forms a single tree.
   - The safe edge added to A is always a least-weight edge connecting the tree to a node not in the tree
+
+## Lecture 4
+
+- Single Source shortest path

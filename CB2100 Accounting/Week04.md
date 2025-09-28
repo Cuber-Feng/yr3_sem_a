@@ -68,6 +68,7 @@
 
 - Distinguish persistent earnings from one-time items
   - Earnings Persistence and One-Time Income Items
+    - 持续稳定的收入 & 一次性收益项目
   - Discontinued Operations
   - Presentation of a Discontinued Operation
   - Other Revenues and Expenses
